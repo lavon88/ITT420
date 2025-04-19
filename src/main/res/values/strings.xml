@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string name="app_name">ITDepApp</string>
+    <string name="welcome_message">Welcome %1$s</string>
+    <string name="new_messages">You have %1$d new messages.</string>
+        <!-- HOD Email FAB -->
+    <string name="email_hod">Email HOD</string>
+    <string name="email_subject">Inquiry from Student</string>
+    <string name="email_address">hod@ucc.edu.gh</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_faculty">Faculty</string>
+    <string name="menu_courses">Courses</string>
+    <string name="menu_admissions">Admissions</string>
+    <string name="menu_contact">Contact Us</string>
+
+    <string name="faculty_photo">Faculty Photo</string>
+
+    <string name="no_data_found">No data found</string>
+    <string name="loading">Loading</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+	<string name="course_image">Image of the course</string>
+    <string name="send_email">Send Email</string>
+</resources>

@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/facultyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. John Doe"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/facultyPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1234567890" />
+
+    <TextView
+        android:id="@+id/facultyEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jdoe@ucc.edu.gh" />
+
+    <ImageView
+        android:id="@+id/facultyPhoto"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_person"
+        android:contentDescription="@string/faculty_photo" />
+
+    <Button
+        android:id="@+id/btnEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Email" />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call" />
+</LinearLayout>
